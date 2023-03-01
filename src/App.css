@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #F5F7FB;
+    --txt-color: #293264;
+    --btn-color: #4D5B9E;
+    --select-color: #D6DBF5;
+    --correct-color: #94D7A2;
+    --wrong-color: #F8BCBC;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: block;
+    border: none;
+    outline: none;
+    background: var(--btn-color);
+    color: var(--bg-color);
+    border-radius: 12px;
+    padding: 12px 35px;
+    margin-top: 10px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    cursor: pointer;
+}
+
+.app {
+    min-height: 100vh;
+    background: var(--bg-color);
+    padding: 50px;
+}
+
+li.select {
+    background: #D6DBF5;
+    color: #293264;
+}
+
+.check-btn {
+    margin: 40px auto;
+}
+@media (max-width: 767px) {
+    .app {
+        padding: 25px;
+    }
+}

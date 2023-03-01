@@ -1,0 +1,41 @@
+/* Begin-Page Start */
+.begin-page {
+  min-height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--bg-color);
+}
+
+.begin-page > h1 {
+  color: var(--txt-color);
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+
+.begin-page > p {
+  color: var(--txt-color);
+  font-size: 18px;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  margin: 12px 0px;
+}
+
+.begin-page .btn {
+  font-size: 18px;
+  word-spacing: 5px;
+}
+/* Small Screen */
+@media (max-width: 767px) {
+  .begin-page > h1 {
+    font-size: 45px;
+  }
+
+  .begin-page > p {
+    letter-spacing: 1px;
+    word-spacing: 0;
+  }
+}
+/* Begin-Page End */
