@@ -12,7 +12,7 @@ The site fetches some general questions via API and presents them to you to answ
 
 ## Built With
 - React 
-- Java Sscript
+- JS
 - Api
 - CSS
 - HTML
