@@ -11,11 +11,11 @@ The site fetches some general questions via API and presents them to you to answ
 ![Q-A-page01](https://user-images.githubusercontent.com/126039300/222586331-52a172e1-1ea2-46d3-beac-fb253b0e063d.jpeg)
 
 ## Built With
-- HTML
-- CSS
-- Java Sscript
 - React 
+- Java Sscript
 - Api
+- CSS
+- HTML
 
 ## Author
 **Ahmed Ali Farajallah**
