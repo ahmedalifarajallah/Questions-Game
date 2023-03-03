@@ -4,7 +4,7 @@ The site fetches some general questions via API and presents them to you to answ
 
 ## Links
 - [Repo] (<https://github.com/ahmedalifarajallah/Questions-Game> "Questions Game")
-- [Live] (<https://questions-game-general.netlify.app/>)
+- [Live] (<https://questions-game-react0.netlify.app/>)
 
 ## Screenshots
 ![Q&A--startPage](https://user-images.githubusercontent.com/126039300/222586355-a60a8f1a-52a9-47e4-b52a-61298019ae21.jpeg)
